@@ -1,0 +1,647 @@
+body {
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.checkout-cartentry {
+    color: white;
+    background-color: transparent !important;
+    border: 2px solid white !important;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.checkout-cartentry-trash {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.checkout-cart-btn {
+    background-color: transparent !important;
+    color: white !important;
+    border: none !important;
+    font-size: 1.5em !important;
+}
+
+.form-control {
+    border-radius: 0px !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.nav-tabs {
+    font-size: 12px !important;
+    padding: 0px !important;
+    margin-bottom: 10px !important;
+}
+
+.nav-tabs .nav-link {
+    color: #727272 !important;
+}
+
+.nav-link:hover {
+    border: none !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: #ffffff !important;
+    background-color: #000000 !important;
+    border-radius: 20px !important;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    box-sizing: border-box !important;
+}
+
+.navbar {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.navbar-toggler {
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.navbar-toggler-icon {
+    color: #ffffff !important;
+    text-align: center !important;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-size: 26px !important;
+}
+
+.navbar-nav {
+    color: #918585 !important;
+    font-size: 18px;
+}
+
+.bg-black {
+    background-color: #000000 !important;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+    /* Black w/opacity */
+}
+
+.layout--background {
+    background: url(../styles/assets/bg-app2.jpg) no-repeat center center fixed;
+    background-size: auto 100%;
+    ;
+}
+
+.layout--landbackground {
+    background: url(../styles/assets/bg-app1.jpg) no-repeat center center fixed;
+    background-size: auto 100%;
+    ;
+    background-color: #cdccc8;
+}
+
+.container-home {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.layout--padding {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+/* Add padding to the container*/
+.layout--padding--menu {
+    padding: 5%;
+    padding-top: 2%;
+}
+
+/* Add padding to the container in admin menu tab*/
+.layout--pading--admin-menu {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.layout--no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Spacing between menu item in client*/
+.layout--menu {
+    margin-bottom: 0%;
+}
+
+.title {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-top: 5vh !important;
+}
+
+.l-center {
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+.l-landing {
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    font-size: 28px;
+}
+
+.l-button-back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.l-home--title {
+    font-size: 100px;
+}
+
+.l-home {
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+}
+
+.l-reserve {
+    margin-top: 3vh;
+}
+
+.l-reserve-title {
+    margin-bottom: 5vh;
+}
+
+.l-home__row {
+    height: 75px;
+    width: auto;
+}
+
+.l-home__row__title {
+    /* height: 200px;
+    position: absolute; */
+    width: 267px;
+    background: url(../styles/assets/logo.png) no-repeat !important;
+}
+
+.l-reserve__row {
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    word-wrap: normal;
+}
+
+.l-reserve__row--small {
+    padding-left: 50px;
+    padding-right: 50px;
+    word-wrap: normal;
+}
+
+.l-reserve-details__row {
+    font-size: 20px;
+}
+
+.modal-header {
+    border: 0px !important;
+}
+
+.h1,
+h1 {
+    margin-bottom: 20px !important;
+}
+
+.big-button {
+    width: 263px;
+    height: 52px;
+}
+
+.big-button--text {
+    font-size: 14px !important;
+    color: #000000 !important;
+}
+
+.big-button--sign-in {
+    left: 0% !important;
+    right: 0% !important;
+    top: 0% !important;
+    bottom: 0% !important;
+    background: #FFFFFF !important;
+    /* Gray 1 */
+
+    border: 1px solid #333333 !important;
+    border-radius: 12px !important;
+}
+
+.big-button--register {
+    left: 0% !important;
+    right: 0% !important;
+    top: 0% !important;
+    bottom: 0% !important;
+    background: #AE956D !important;
+    color: #FFFFFF !important;
+    border-radius: 12px !important;
+    border-color: #AE956D !important;
+}
+
+
+.big-button--continue {
+    left: 0% !important;
+    right: 0% !important;
+    top: 0% !important;
+    bottom: 0% !important;
+    background: #000000 !important;
+    color: #FFFFFF !important;
+    border-radius: 12px !important;
+    border-color: #000000 !important;
+}
+
+.divider {
+    border-top: 3px solid;
+    width: 100%;
+}
+
+.menu-h1 {
+    top: 60px !important;
+    position: sticky !important;
+    background-color: #ffffff !important;
+    background-size: 100%;
+    z-index: 1;
+    width: 100%;
+}
+
+.tabbable {
+    background-color: #ffffff;
+}
+
+.tabbable .nav-tabs {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    top: 100px !important;
+    background-color: #ffffff !important;
+    z-index: 1;
+    position: sticky !important;
+}
+
+.tabbable .nav-tabs .nav-link {
+    white-space: nowrap;
+}
+
+.menu-nav-tabs li {
+    display: inline-block;
+}
+
+.menu-container {
+    top: 200px !important;
+    padding-bottom: 70px !important;
+}
+
+.menu-item {
+    position: relative;
+    border-radius: 20px !important;
+}
+
+.menu-item--photo {
+    /* position: relative; */
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+    height: 375px !important;
+}
+
+.menu-item--title {
+    font-weight: bold !important;
+    font-size: 20px !important;
+    margin-bottom: 2px !important;
+}
+
+.menu-item--text {
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+}
+
+.menu-item-dialog {
+    height: 100% !important;
+}
+
+.menu-item-qty-btn {
+    /* background-color: transparent !important; */
+    /* color: white !important; */
+    border: none !important;
+    font-size: 1.5em !important;
+}
+
+.margin-center {
+    margin-left: 5% !important;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.small-button-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.small-button {
+    width: 100%;
+    height: 60px;
+}
+
+.icon-whatsapp {
+    font-size: 34px;
+    color: #25D366;
+    padding-left: 10px;
+}
+
+.icon-share {
+    font-size: 34px;
+    color: gray;
+}
+
+
+.alert-shown {
+    opacity: 1;
+    transition: all 250ms linear;
+}
+
+.alert-hidden {
+    display: none;
+    opacity: 0;
+    transition: all 250ms linear;
+}
+
+.zomato-review--title {
+    margin-top: 5%;
+}
+
+.star-ratings {
+    margin-bottom: 5%;
+}
+
+.review-footer-text {
+    margin-right: 5%;
+}
+
+.review-footer-text:hover {
+    text-decoration: underline;
+}
+
+df-messenger {
+    --df-messenger-bot-message: #121212;
+    --df-messenger-button-titlebar-color: #080808;
+    --df-messenger-chat-background-color: #ffffff;
+    --df-messenger-font-color: white;
+    --df-messenger-send-icon: #878fac;
+    --df-messenger-user-message: #aaaaaa;
+}
+
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100% !important;
+    width: 100% !important;
+    position: fixed important;
+    /* Stay in place */
+    z-index: 99999 !important;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    padding: 0px !important;
+    background-color: rgb(0, 0, 0);
+    /* Black fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/opacity */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+.overlay .modal-content {
+    background-color: transparent !important;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    /* 100% width */
+    text-align: center;
+    /* Centered text/links */
+    margin-top: 20px;
+    /* 20px top margin to avoid conflict with the close button on smaller screens */
+    background-color: transparent;
+    /* Black fallback color */
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.overlay-cart {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100% !important;
+    width: 100% !important;
+    z-index: 99999 !important;
+    /* Sit on top */
+    background-color: rgb(0, 0, 0);
+    /* Black fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/opacity */
+    color: white;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    top: 63px !important;
+}
+
+.overlay-cart .modal-content {
+    background-color: transparent !important;
+    border: 0px solid !important;
+    overflow-y: auto;
+    /* color: white; */
+    height: 80% !important;
+    padding-bottom: 93px !important;
+
+}
+
+.overlay-cart .overlay-button {
+    color: black !important;
+    background-color: white !important;
+    width: 100% !important;
+    height: 45px !important;
+    margin-top: 20px !important;
+}
+
+.overlay-button:hover {
+    background-color: grey !important;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    float: center !important;
+    color: #818181;
+    display: block;
+    /* Display block instead of inline */
+    transition: 0.3s;
+    /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+    opacity: 1 !important;
+}
+
+/* Position the close button (top right corner) */
+.overlay-closebtn .close {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff !important;
+    opacity: .5;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent !important;
+}
+
+.badge-info {
+    background-color: #ae956d !important;
+}
+
+.layout--menu.row:nth-child(1) {
+    padding-top: 25px;
+}
+
+.review-footer-button {
+    float: right;
+}
+
+.orders {
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.orders .btn-primary {
+    width: 100%;
+    max-width: 375px !important;
+    height: 45px !important;
+    margin-top: 20px !important;
+}
+
+.orders-empty {
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.orders-total {
+    padding-top: 20px;
+}
+
+.order-card {
+    width: 100%;
+    padding-right: 0px !important;
+}
+
+.order-card .card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.order-card .card-body {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.order-card .card-subtitle {
+    font-size: 14px;
+    font-weight: medium;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.order-notes {
+    font-style: italic;
+}
+
+.profile-img {
+    max-height: 200px;
+}
+
+.profile-name {
+    font-size: 22px;
+}
+
+.profile-email {
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+.profile-badge {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.card {
+    margin-bottom: 5% !important;
+}
+
+.payment {
+    padding: 10px;
+}
+
+.payment-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.payment-label {
+    font-weight: bold !important;
+    border-bottom: 1px solid #727272;
+    width: 100%;
+}
+
+.payment-complete-btn {
+    width: 100%;
+    max-width: 375px !important;
+    height: 45px !important;
+    margin-top: 20px !important;
+}
+
+.review-timestamp {
+    margin-bottom: 5px !important;
+    font-style: italic !important;
+}
+
+.bottom-up {
+    padding-bottom: 47px !important;
+}
+
+.past-orders {
+    padding-top: 10px;
+    border-bottom: 1px solid #727272;
+}
+
+#share-wa {
+    font-size: 20px;
+}

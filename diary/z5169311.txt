@@ -1,0 +1,48 @@
+Week 1
+
+I was absent during week 1, but was aware to form group of 5 and was briefd what we will do. 
+I participated in the brainstorming online as I wasn't able to attend physically.
+
+Week 2
+Decided to choose the waiter app. We had a meeting to discuss the requirements and the user stories. I had to add the stories into Jira.
+We also discussed the architecture of the software (database, api, frameworks, etc). 
+I was given the backend part of the software, mainly REST APIs. Started to impement very basic order
+
+Week 3
+
+Worked on the proposal as each member was assigned different parts. 
+I was in charge of the software architecture with Ganang.
+Made the order REST API endpoints. 
+Schema changes means that I needed to change bits of the API
+
+
+Week 4
+Completed the order APIs. Moved on to the status of the order. 
+Fixed the schema so it fits more on the document base MongoDB.
+Instead of having references to another collection, we embed it all in one document so it's easier to fetch.
+
+Week 5
+Made the session schema in order to store the user's table id and order
+and order item so that it can track the current session and how long they stay
+in the restaurant
+
+Week 6
+Start to look into the Google Dialogflow api for the chatbot.
+Made modification to the back end (Session)
+
+Week 7
+Implemented the chatbot using Dialogflow's API. This involves training the bot
+for intents and conversation that can retrieve the information about the restaurant
+menus, review, abouts, etc.
+
+Week 8
+This week, cleaned up the code, deleted some unused code and added some
+error exception catching to make it easier for debug
+
+Week 9
+This week fixed the chatbot and used the dialogflow messenger in the react app and made more functionality
+with the bot (ask for recommendation, show the reviews, show images). Implemented the food review,
+email reservation, and some bug fixes before the presentation.
+
+Week 10
+Presentation Demo week. Fixed minor bugs, started on the report for the final submission
